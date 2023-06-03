@@ -15,6 +15,10 @@ class Main extends Application {
 		trace ("Hello World");
 		
 	}
+
+	override function onWindowCreate() {
+		window.onResize.add((width, height) -> trace('window $width x $height'));
+	}
 	
 	
 	public override function render (context:RenderContext):Void {

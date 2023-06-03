@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="Html5WindowResize" package="org.openfl.lime.samples.html5windowresize" version="1.0.0" company="OpenFL" />
+	<app main="Main" path="Export" file="Html5WindowResize" />
+	
+	<source path="Source" />
+	
+	<haxelib name="lime" />
+	
+	<assets path="Assets" rename="assets" />
+	
+</project>
